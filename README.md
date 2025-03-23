@@ -1,8 +1,8 @@
-##  An Library Graphql Api build in with NestJs
+##  An Library GraphQL API Built with NestJS
 
 ### Run The Following Command:
 
-#### install packages
+#### Install Packages
 ```bash
 npm install
 ```
