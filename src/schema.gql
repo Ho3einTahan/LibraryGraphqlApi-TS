@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type BookModel {
+  id: Int!
+  bookName: String!
+  publishDate: String!
+}
+
+type Query {
+  books: [BookModel!]!
+  findBookById(id: Int!): BookModel!
+  getCountOfBooks: Int!
+}
+
+type Mutation {
+  addNewBook(bookName: String!, publishDate: String!): BookModel!
+}
